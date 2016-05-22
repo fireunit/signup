@@ -4,8 +4,6 @@ import UIKit
 import XCPlayground
 import Material
 
-var str = "Hello, playground"
-
 struct Devices {
     let iPhoneSE = UIView(frame: CGRect(x: 0, y: 0, width: 320, height: 568))
     let iPhone6 = UIView(frame: CGRect(x: 0, y: 0, width: 375, height: 667))
