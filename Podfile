@@ -6,6 +6,8 @@ target 'signup' do
   pod 'Firebase'
   pod 'Firebase/Auth'
   
+  pod 'Material', '~> 1.0'
+  
   target 'signupTests' do
     inherit! :search_paths
     # Pods for testing

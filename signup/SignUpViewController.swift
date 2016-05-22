@@ -1,15 +1,15 @@
 //
-//  ViewController.swift
+//  SignUpViewController.swift
 //  signup
 //
 //  Created by doug on 5/22/16.
-//  Copyright © 2016 firemod. All rights reserved.
+//  Copyright © 2016 fireunit. All rights reserved.
 //
 
 import UIKit
 import Firebase
 
-class ViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

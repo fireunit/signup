@@ -3,7 +3,7 @@
 //  signup
 //
 //  Created by doug on 5/22/16.
-//  Copyright © 2016 firemod. All rights reserved.
+//  Copyright © 2016 fireunit. All rights reserved.
 //
 
 import UIKit
@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         FIRApp.configure()
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window!.rootViewController = SignUpViewController()
+        window!.makeKeyAndVisible()
+        
         return true
     }
     
